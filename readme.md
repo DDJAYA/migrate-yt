@@ -92,6 +92,25 @@ To upload to your channel, you need to generate a `client_secret.json` file from
 
 ---
 
+## 🐳 Running with Docker
+
+You can also run the application using Docker and Docker Compose. This avoids needing to install Go, `yt-dlp`, and `ffmpeg` locally.
+
+1. Ensure your `.env` and `client_secret.json` are in the project root.
+2. Build and start the container in detached mode:
+   ```bash
+   docker compose up -d
+   ```
+3. **Authentication (First Run)**:
+   Since the container requires interactive authorization the first time, attach to it to see the prompts:
+   ```bash
+   docker attach ytclone
+   ```
+   Follow the authorization link, paste your authorization code in the terminal, and press `Enter`. 
+   You can then safely detach from the container's output by pressing `Ctrl+P`, then `Ctrl+Q`.
+
+---
+
 ## 📂 File Explanations
 - `main.go`: The core application code.
 - `client_secret.json`: Your private Google OAuth credentials.

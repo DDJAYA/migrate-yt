@@ -1,0 +1,15 @@
+services:
+  ytclone:
+    build: .
+    container_name: ytclone
+    restart: unless-stopped
+    # Keeps container running and allows interactive terminal (required for OAuth login)
+    stdin_open: true # -i flag
+    tty: true        # -t flag
+    volumes:
+      - ./.env:/app/.env
+      - ./client_secret.json:/app/client_secret.json
+      # Mount uploaded.txt to persist upload history
+      - ./uploaded.txt:/app/uploaded.txt
+      # Mount temp folder outside container to avoid filling up container disk
+      - ./temp:/app/temp
