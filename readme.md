@@ -40,37 +40,6 @@ To upload to your channel, you need to generate a `client_secret.json` file from
 
 ---
 
-## 🚀 Installation & Setup
-
-1. **Initialize the Go module** (if you haven't already):
-   ```bash
-   go mod init youtube-uploader
-   ```
-
-2. **Install Required Go Packages**:
-   ```bash
-   go get github.com/joho/godotenv
-   go get golang.org/x/oauth2
-   go get golang.org/x/oauth2/google
-   go get google.golang.org/api/option
-   go get google.golang.org/api/youtube/v3
-   ```
-
-3. **Create the Environment File**:
-   Create a file named `.env` in the root folder with the following configuration:
-   ```env
-   # The URL of the YouTube channel you want to scrape and download from
-   TARGET_CHANNEL="https://www.youtube.com/@ChannelName"
-   
-   # Number of concurrent downloads/uploads
-   MAX_WORKERS=3
-   
-   # The privacy status of the uploaded video (private, unlisted, public)
-   UPLOAD_PRIVACY="private"
-   ```
-
----
-
 ## ▶️ Running the Application
 
 1. Open your terminal in the project directory.
